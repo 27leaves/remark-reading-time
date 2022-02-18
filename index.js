@@ -17,6 +17,6 @@ export default function readingTime({
       text += node.value;
     });
 
-    file.data[attribute] = getReadingTime(text);
+    file.data.fm[attribute] = getReadingTime(text);
   };
 }
